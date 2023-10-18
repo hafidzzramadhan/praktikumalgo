@@ -1,0 +1,651 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNTiL4bZIE/y0B7Z+I8Kris",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hafidzzramadhan/praktikumalgo/blob/main/MAIN%20PROJEK%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "nil=int(input(\"Nilai anda(0-100 ?)\"))\n",
+        "while nil<= 0 or nil >100:\n",
+        "  print(\"inavalid\")\n",
+        "  nil=int(input(\"Nilai anda(0-100?\\n)\"))\n",
+        "print(\"SELAMAT ANDA LULUS\\n\")\n",
+        "x=int(input(\"Umur anda: \"))\n",
+        "if x<= 15:\n",
+        "  print(\"Ararara\")\n",
+        "else:\n",
+        "\n",
+        " print(\"Bentarr ya mas/mbaa\")\n",
+        "print(\"lanjut untuk registrasi....?\")\n",
+        "nam=input(\"yes/No =\")\n",
+        "while nam !=no:\n",
+        "  print(\"PANSII,YANG BENER\")\n",
+        "  nam=input(\"YES/NO\")\n",
+        "if nam==\"yes\":\n",
+        "  input(\"Nama = \")\n",
+        "  input(\"umur = \")\n",
+        "  input(\"Jurusan= \")\n",
+        "  gender=input(\"laki/perempuan =\")\n",
+        "  if gender==\"laki\":\n",
+        "    print(\"Suksess terus mass \")\n",
+        "  else:\n",
+        "    print(\"Sukeses teruss mba nya :)..\")\n",
+        "else:\n",
+        "  print(\"Terimasih\")\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 375
+        },
+        "id": "Wr3n11GyN6gv",
+        "outputId": "b370b108-a2f8-48e4-ff8e-33def82bd1b0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Nilai anda(0-100 ?)90\n",
+            "SELAMAT ANDA LULUS\n",
+            "\n",
+            "Umur anda: 90\n",
+            "Bentarr ya mas/mbaa\n",
+            "lanjut untuk registrasi....?\n",
+            "yes/No =YES\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-5-5912da0ddf3f>\u001b[0m in \u001b[0;36m<cell line: 14>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     12\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"lanjut untuk registrasi....?\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     13\u001b[0m \u001b[0mnam\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"yes/No =\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 14\u001b[0;31m \u001b[0;32mwhile\u001b[0m \u001b[0mnam\u001b[0m \u001b[0;34m!=\u001b[0m\u001b[0mno\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     15\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"PANSII,YANG BENER\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     16\u001b[0m   \u001b[0mnam\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"YES/NO\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'no' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=\"the\"\n",
+        "d=\"beatles\"\n",
+        "c=s*d\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 232
+        },
+        "id": "E6_1rsNz5mJP",
+        "outputId": "9947c200-ed44-4782-a85f-f91360d7300a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-29-416a066a6a4d>\u001b[0m in \u001b[0;36m<cell line: 3>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0ms\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m\"the\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0md\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m\"beatles\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mc\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0ms\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0md\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mc\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mTypeError\u001b[0m: can't multiply sequence by non-int of type 'str'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "jumlah_bilangan=int(input(\"jumlah bilangan ?\"))\n",
+        "i=0 ; hasil_jumlah=0\n",
+        "while i <jumlah_bilangan :\n",
+        "  bil=int(input(\"masukan bilangan\"))\n",
+        "  hasil_jumlah=hasil_jumlah+bil\n",
+        "  i=i+1\n",
+        "Rata_rata=hasil_jumlah/jumlah_bilangan\n",
+        "print(\"\\n,Rata rata nya adalah:\",Rata_rata)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "msCnOecvLCni",
+        "outputId": "4e9efafc-483d-42f6-a2d5-cc544f2063c4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jumlah bilangan ?3\n",
+            "masukan bilangan2\n",
+            "masukan bilangan2\n",
+            "masukan bilangan2\n",
+            "\n",
+            ",Rata rata nya adalah: 2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "k=1\n",
+        "while k<5:\n",
+        "  print(\"body loping ,k=\",k)\n",
+        "  k=k+1\n",
+        "print(\"---BYE\\n\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nkYK94aGrVwC",
+        "outputId": "fecb55c3-c28e-4789-bc07-0efe11b30757"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "body loping ,k= 1\n",
+            "body loping ,k= 2\n",
+            "body loping ,k= 3\n",
+            "body loping ,k= 4\n",
+            "---BYE\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "bawah =3\n",
+        "atas =7\n",
+        "for k in range(atas,bawah,-1):\n",
+        "  print(\"Bodylooping, k=\" ,k)\n",
+        "\n",
+        "print(\"bye\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PU0mcxBpTrTu",
+        "outputId": "33ff3a84-9469-453a-8eeb-21f76b2d8fc7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bodylooping, k= 7\n",
+            "Bodylooping, k= 6\n",
+            "Bodylooping, k= 5\n",
+            "Bodylooping, k= 4\n",
+            "bye\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"saru\\n\")\n",
+        "print(\"dada\\n\")\n",
+        "print(\"triga\\n\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yBz_RVpnnasX",
+        "outputId": "8c441baf-3748-4e26-ddc0-b90ab91f10e9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "saru\n",
+            "\n",
+            "dada\n",
+            "\n",
+            "triga\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "k=int(input(\"jumlah ?\"))\n",
+        "jumlah=0\n",
+        "for a in range(k):\n",
+        "  h=int(input(\"masukan bilangan= \"))\n",
+        "  jumlah=jumlah+h\n",
+        "\n",
+        "print(\"\\nRata ratanya adalah:\",(jumlah/k))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2M8hAsqrUnxM",
+        "outputId": "98a0a1fb-03dc-4820-c741-fd3bc82defc7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jumlah ?2\n",
+            "masukan bilangan= 10\n",
+            "masukan bilangan= 15\n",
+            "\n",
+            "Rata ratanya adalah: 12.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r=2\n",
+        "n=2\n",
+        "d=((1-r)-1)/((r*(1+r)**n))\n",
+        "print(d)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "enriSia2pyoC",
+        "outputId": "55cad62f-55b1-49a0-f109-d63a3933ce92"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "-0.1111111111111111\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "data=\"Hai Apakabar!“\n",
+        "for indeks in range(len(data)):\n",
+        "print(indeks, data[indeks])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 143
+        },
+        "id": "iyczYJJRHcc2",
+        "outputId": "fdc4ede8-4f73-407b-eff2-1e3013f954f7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-8-698f2fad22e7>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    data=\"Hai Apakabar!“\u001b[0m\n\u001b[0m         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 1)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s='abcd'\n",
+        "for k in range(len(s)):\n",
+        "t = s[k:]+s[:k] // t= s[3:]+s[:3]\n",
+        "print(t)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 143
+        },
+        "id": "jW6KYcIXJNJC",
+        "outputId": "f34413f8-ae3e-4405-bc43-df9ac43be99c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-10-03bc02a55199>\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    t = s[k:]+s[:k] // t= s[3:]+s[:3]\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after 'for' statement on line 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "B=int(input(\"Masukan bilangan:\"))\n",
+        "Bitstring=\"\"\n",
+        "while B>0:\n",
+        "  sisa=B%2\n",
+        "  B=B//2\n",
+        "  Bitstring=str(sisa)+Bitstring\n",
+        "\n",
+        "  print(\"Representasi binnernya:\",Bitstring)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tWinrz6xV8d_",
+        "outputId": "7a130ee4-b00c-4773-8ba1-59bfb0ea00fb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukan bilangan:27\n",
+            "Representasi binnernya: 1\n",
+            "Representasi binnernya: 11\n",
+            "Representasi binnernya: 011\n",
+            "Representasi binnernya: 1011\n",
+            "Representasi binnernya: 11011\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x= 4235.123456789\n",
+        "print(\"x=%16.3e\"%(x))\n",
+        "print(\"x=%16.3f\"%(x))\n",
+        "print(\"x=%16.2f\"%(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Yqz6RsQCGqKp",
+        "outputId": "91a95b84-fb80-4182-fec1-d2de8ade3656"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x=       4.235e+03\n",
+            "x=        4235.123\n",
+            "x=         4235.12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "k=int(input(\"jumlah ?\"))\n",
+        "jumlah=0\n",
+        "for a in range(k):\n",
+        "  h=int(input(\"masukan bilangan= \"))\n",
+        "  jumlah=jumlah+h\n",
+        "print(\"\\n Rata ratanya :\" , jumlah/k)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "L9d4BsDebOn1",
+        "outputId": "69f1003a-4c3f-43e2-e952-1c828bd825b9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "jumlah ?3\n",
+            "masukan bilangan= 5\n",
+            "masukan bilangan= 5\n",
+            "masukan bilangan= 5\n",
+            "\n",
+            " Rata ratanya : 5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def generate_fibonacci(n, first, second):\n",
+        "    fibonacci_sequence = [first, second]\n",
+        "    for i in range(2, n):\n",
+        "        next_number = fibonacci_sequence[-1] + fibonacci_sequence[-2]\n",
+        "        fibonacci_sequence.append(next_number)\n",
+        "    return fibonacci_sequence\n",
+        "\n",
+        "# Input dari pengguna\n",
+        "n = int(input(\"Masukkan jumlah bilangan dalam deret Fibonacci: \"))\n",
+        "first = int(input(\"Masukkan bilangan pertama dalam deret Fibonacci: \"))\n",
+        "second = int(input(\"Masukkan bilangan kedua dalam deret Fibonacci: \"))\n",
+        "\n",
+        "# Menampilkan input pengguna\n",
+        "print(\"Masukan jumlah bilangan:\", n)\n",
+        "print(\"Masukan bilangan pertama:\", first)\n",
+        "print(\"Masukan bilangan kedua:\", second)\n",
+        "\n",
+        "# Membuat dan menampilkan deret Fibonacci\n",
+        "if n <= 0:\n",
+        "    print(\"Jumlah bilangan harus lebih besar dari 0.\")\n",
+        "else:\n",
+        "    fibonacci_sequence = generate_fibonacci(n, first, second)\n",
+        "    print(\"Deret Fibonacci:\")\n",
+        "    for num in fibonacci_sequence:\n",
+        "        print(num)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jpxAgNKLyEzJ",
+        "outputId": "fa697fae-60c4-4499-e4d2-b6b4bb2d4950"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan jumlah bilangan dalam deret Fibonacci: 7\n",
+            "Masukkan bilangan pertama dalam deret Fibonacci: 2\n",
+            "Masukkan bilangan kedua dalam deret Fibonacci: 1\n",
+            "Masukan jumlah bilangan: 7\n",
+            "Masukan bilangan pertama: 2\n",
+            "Masukan bilangan kedua: 1\n",
+            "Deret Fibonacci:\n",
+            "2\n",
+            "1\n",
+            "3\n",
+            "4\n",
+            "7\n",
+            "11\n",
+            "18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def create_python_banner():\n",
+        "    banner = \"\"\"\n",
+        "  @@.   @@.      @@@@.    @@@@@@@.   @@\n",
+        "  @@.   @@.    @.    @.   @@.        @@    @@@@@@@@@@@\n",
+        "  @@@@@@@@.   @@@@@@@@.   @@@@@@@    @@             @\n",
+        "  @@.   @@.   @.     @.   @@         @@           @@\n",
+        "  @@.   @@.   @.     @.   @@         @@          @@@@@@@@@@@\n",
+        "    \"\"\"\n",
+        "    return banner\n",
+        "\n",
+        "print(create_python_banner())\n",
+        "# Membaca input dari pengguna untuk membuat list angka\n",
+        "angka = input(\"Masukkan angka-angka, dipisahkan oleh spasi: \")\n",
+        "\n",
+        "# Memisahkan angka yang dimasukkan menjadi elemen-elemen dalam list\n",
+        "angka = angka.split()\n",
+        "\n",
+        "# Mengkonversi angka-angka dalam list menjadi tipe data integer\n",
+        "angka = [int(x) for x in angka]\n",
+        "\n",
+        "# Membuat variabel untuk menandai apakah terdapat angka genap\n",
+        "terdapat_genap = False\n",
+        "\n",
+        "# Iterasi melalui list angka\n",
+        "for bilangan in angka:\n",
+        "    if bilangan % 2 == 0:\n",
+        "        terdapat_genap = True\n",
+        "        break  # Keluar dari loop jika ditemukan angka genap\n",
+        "\n",
+        "# Mengecek apakah terdapat angka genap dan menampilkan pesan sesuai hasilnya\n",
+        "if terdapat_genap:\n",
+        "    print(\"Terdapat angka genap dalam list.\")\n",
+        "else:\n",
+        "    print(\"Tidak terdapat angka genap dalam list.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "few_Z2RRylo2",
+        "outputId": "3acf5255-5795-4681-8f95-486bc1031c0b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "  @@.   @@.      @@@@.    @@@@@@@.   @@  \n",
+            "  @@.   @@.    @.    @.   @@.        @@    @@@@@@@@@@@\n",
+            "  @@@@@@@@.   @@@@@@@@.   @@@@@@@    @@             @\n",
+            "  @@.   @@.   @.     @.   @@         @@           @@\n",
+            "  @@.   @@.   @.     @.   @@         @@          @@@@@@@@@@@\n",
+            "    \n",
+            "Masukkan angka-angka, dipisahkan oleh spasi: 1 3 5 7\n",
+            "Tidak terdapat angka genap dalam list.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=\"abcd\"\n",
+        "for c in s:\n",
+        "  print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aZJDebSab_ev",
+        "outputId": "83c05d59-a568-4b32-8aee-75dca1fb9dcf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "a\n",
+            "b\n",
+            "c\n",
+            "d\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=\"abcd\"\n",
+        "for k in range(len(s)):\n",
+        "  t= s[1:]+ s[:1]\n",
+        "  print(t)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hzTKR1f6j4vo",
+        "outputId": "4e1df4ba-c345-475e-d782-c89401e9f1fe"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "bcda\n",
+            "bcda\n",
+            "bcda\n",
+            "bcda\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
