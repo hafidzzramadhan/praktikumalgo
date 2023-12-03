@@ -1,0 +1,251 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOA1VrdZFwGC2spzVm7aBeL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hafidzzramadhan/praktikumalgo/blob/main/Untitled23.ipynb%20fungsi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "GVEm6x-7jBKc"
+      },
+      "outputs": [],
+      "source": [
+        "def DefoptFunc(x, y=2, z=3):\n",
+        "  print(x,y,z)\n",
+        "\n",
+        "  DefoptFunc(1)\n",
+        "  DefoptFunc(1,10)\n",
+        "  DefoptFunc(1,10,20)\n",
+        "  DefoptFunc(1,z=30)\n",
+        "  DefoptFunc(1, z=50,y=100)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def defOptFunc (x, y=2, z=3):\n",
+        "    #print (x, y, z)\n",
+        "\n",
+        "\n",
+        "defOptFunc(1)\n",
+        "defOptFunc(1, 10)\n",
+        "defOptFunc(1, 10, 20)\n",
+        "defOptFunc(1, z=30)\n",
+        "defOptFunc(1, z=50, y=100)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 143
+        },
+        "id": "ID-2AtYTpzrf",
+        "outputId": "294bbf1d-688d-469d-e87c-9663ebb2b3b7"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-140d1747fbd1>\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    defOptFunc(1)\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after function definition on line 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def Indexganjil():\n",
+        "  output = input_user[::2]\n",
+        "  return output\n",
+        "\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "print(\"Karakter dengan indeks ganjil:\", output)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u-o410CB7jgX",
+        "outputId": "f605f890-b1e8-44cf-e005-601fe34f07c4"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def Indexganjil():\n",
+        "  output = input_user[::2]\n",
+        "  return output\n",
+        "\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "print(\"Karakter dengan indeks ganjil:\", output)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Np9yRDqTAYDj",
+        "outputId": "b2ec96d6-b804-4222-cb8a-b880c568665f"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def karakter_indeks_ganjil(inputan):\n",
+        "    \"\"\"\n",
+        "    Fungsi ini memunculkan karakter dengan indeks ganjil dari inputan.\n",
+        "\n",
+        "    Parameters:\n",
+        "    - inputan (str): String yang akan diolah.\n",
+        "\n",
+        "    Returns:\n",
+        "    - str: Karakter dengan indeks ganjil dari inputan.\n",
+        "    \"\"\"\n",
+        "    return inputan[::2]\n",
+        "\n",
+        "# Input dari pengguna\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "\n",
+        "# Memunculkan karakter dengan indeks ganjil\n",
+        "hasil_output = karakter_indeks_ganjil(input_user)\n",
+        "\n",
+        "# Menampilkan hasil\n",
+        "print(\"Karakter dengan indeks ganjil:\", hasil_output)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7hsDjf9XA1ML",
+        "outputId": "9b279351-4413-4f7e-969c-40793cb5b768"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: rd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def tampilkan_index_ganjil(input_string):\n",
+        "    karakter_ganjil = input_string[::2]\n",
+        "    print(\"Karakter dengan index ganjil:\", karakter_ganjil)\n",
+        "\n",
+        "# Input dari pengguna\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "\n",
+        "# Memanggil fungsi untuk menampilkan karakter index ganjil\n",
+        "tampilkan_index_ganjil(input_user)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1bO-Zy1rPX2w",
+        "outputId": "241afceb-24b2-4551-83ff-1fbe5800fc2f"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: Hafidz ramadhan\n",
+            "Karakter dengan index ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def hitung_jumlah_range(batas_bawah, batas_atas):\n",
+        "    jumlah = sum(range(batas_bawah, batas_atas + 1))\n",
+        "    return jumlah\n",
+        "\n",
+        "# Meminta input dari pengguna\n",
+        "batas_bawah = int(input(\"Masukkan batas bawah: \"))\n",
+        "batas_atas = int(input(\"Masukkan batas atas: \"))\n",
+        "\n",
+        "# Menghitung jumlah range\n",
+        "hasil = hitung_jumlah_range(batas_bawah, batas_atas)\n",
+        "\n",
+        "# Menampilkan hasil\n",
+        "print(f\"Jumlah range adalah : {hasil}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YHftNTMaQI2c",
+        "outputId": "c1eb2865-9e52-45c3-d4c5-c71b5f24e443"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan batas bawah: 1\n",
+            "Masukkan batas atas: 9\n",
+            "Jumlah range adalah : 45\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
