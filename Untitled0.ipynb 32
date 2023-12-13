@@ -1,0 +1,569 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOmjE2UjP5OIGU+YDp0oeup",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hafidzzramadhan/praktikumalgo/blob/main/Untitled0.ipynb%2032\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "p1_input = input(\"Masukkan koordinat titik pertama: \")\n",
+        "\n",
+        "p2_input = input(\"Masukkan koordinat titik kedua: \")\n",
+        "\n",
+        "p1 = p1_input.split()\n",
+        "p2 = p2_input.split()\n",
+        "\n",
+        "if len(p1) != 2 or len(p2) != 2:\n",
+        "    print(\"Format input salah. Harap masukkan koordinat dalam format x y.\")\n",
+        "else:\n",
+        "    x1, y1 = float(p1[0]), float(p1[1])\n",
+        "    x2, y2 = float(p2[0]), float(p2[1])\n",
+        "\n",
+        "    jarak = math.sqrt((x1 - x2) * 2 + (y1 - y2) * 2)\n",
+        "\n",
+        "    print(\"Jarak antara dua titik adalah:\", jarak)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pqRMqOrAlxSC",
+        "outputId": "71ba8860-057c-4ce2-ba5c-25ec79a3dd47"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan koordinat titik pertama: 3,2\n",
+            "Masukkan koordinat titik kedua: 1,2\n",
+            "Format input salah. Harap masukkan koordinat dalam format x y.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "p1_input = input(\"Masukkan koordinat titik pertama: \")\n",
+        "\n",
+        "p2_input = input(\"Masukkan koordinat titik kedua: \")\n",
+        "\n",
+        "p1 = p1_input.split()\n",
+        "p2 = p2_input.split()\n",
+        "\n",
+        "if len(p1) != 2 or len(p2) != 2:\n",
+        "    print(\"Format input salah. Harap masukkan koordinat dalam format x y.\")\n",
+        "else:\n",
+        "    x1, y1 = float(p1[0]), float(p1[1])\n",
+        "    x2, y2 = float(p2[0]), float(p2[1])\n",
+        "\n",
+        "    jarak = math.sqrt((x1 - x2) * 2 + (y1 - y2) * 2)\n",
+        "\n",
+        "    print(\"Jarak antara dua titik adalah:\", jarak)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fnEa2W-jmCjx",
+        "outputId": "481e2594-9de5-47eb-8bc1-201be93cb42e"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan koordinat titik pertama: 12\n",
+            "Masukkan koordinat titik kedua: 23\n",
+            "Format input salah. Harap masukkan koordinat dalam format x y.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import math\n",
+        "\n",
+        "p1_input = input(\"Masukkan koordinat titik pertama: \")\n",
+        "\n",
+        "p2_input = input(\"Masukkan koordinat titik kedua: \")\n",
+        "\n",
+        "p1 = p1_input.split()\n",
+        "p2 = p2_input.split()\n",
+        "\n",
+        "if len(p1) != 2 or len(p2) != 2:\n",
+        "    print(\"Format input salah. Harap masukkan koordinat dalam format x y.\")\n",
+        "else:\n",
+        "    x1, y1 = float(p1[0]), float(p1[1])\n",
+        "    x2, y2 = float(p2[0]), float(p2[1])\n",
+        "\n",
+        "    jarak = math.sqrt((x1 - x2) * 2 + (y1 - y2) * 2)\n",
+        "\n",
+        "    print(\"Jarak antara dua titik adalah:\", jarak)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5L0xPJXYmLGW",
+        "outputId": "c9dac2c7-bdc2-40bd-cf01-ecf75058ecda"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan koordinat titik pertama: 3 2\n",
+            "Masukkan koordinat titik kedua: 1 1\n",
+            "Jarak antara dua titik adalah: 2.449489742783178\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def cekBil(bil):\n",
+        "    if bil == 1:\n",
+        "        print(bil, \"= prima\")\n",
+        "    elif bil == 2:\n",
+        "        print(bil, \"= prima\")\n",
+        "    else:\n",
+        "        global x\n",
+        "        for x in range(2, bil):\n",
+        "            if bil % x == 0:\n",
+        "                stat = 0\n",
+        "                break\n",
+        "            else:\n",
+        "                stat = 1\n",
+        "        cekStat(stat)\n",
+        "\n",
+        "def cekStat(stat):\n",
+        "    if stat == 0:\n",
+        "        print(bil, \"= bukan prima\")\n",
+        "        print(f\"{x} x {bil//x} = {bil}\")\n",
+        "    else:\n",
+        "        print(bil, \"= prima\")\n",
+        "\n",
+        "count = 0\n",
+        "while True:\n",
+        "    print()\n",
+        "    bil = int(input(\"Masukkan angka: \"))\n",
+        "    cekBil(bil)\n",
+        "\n",
+        "    count += 1\n",
+        "    if count == 8:\n",
+        "        break\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sZsyHB0x0ak4",
+        "outputId": "048ca67b-4aa6-45b9-bb51-6b76e507509f"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "Masukkan angka: 1\n",
+            "1 = prima\n",
+            "\n",
+            "Masukkan angka: 2\n",
+            "2 = prima\n",
+            "\n",
+            "Masukkan angka: 4\n",
+            "4 = bukan prima\n",
+            "2 x 2 = 4\n",
+            "\n",
+            "Masukkan angka: 5\n",
+            "5 = prima\n",
+            "\n",
+            "Masukkan angka: 15\n",
+            "15 = bukan prima\n",
+            "3 x 5 = 15\n",
+            "\n",
+            "Masukkan angka: 9\n",
+            "9 = bukan prima\n",
+            "3 x 3 = 9\n",
+            "\n",
+            "Masukkan angka: 11\n",
+            "11 = prima\n",
+            "\n",
+            "Masukkan angka: 10\n",
+            "10 = bukan prima\n",
+            "2 x 5 = 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "dic={\"first\":1, \"second\":2, \"third\":3}\n",
+        "for i in dic:\n",
+        "  print(dic[i])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K-Jo2SwDwhGV",
+        "outputId": "9f339015-f1e4-4b02-8c1e-0f72d898c3f6"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "mahasiswa=[]\n",
+        "def data_masuk():\n",
+        "   nama  = input(\"Masukkan Nama Mahasiswa: \")\n",
+        "   nilai1=int(input(\"Masukkan Nilai Praktikum 1: \"))\n",
+        "   nilai2=int(input(\"Masukkan Nilai Praktikum 2: \"))\n",
+        "   nilai3=int(input(\"Masukkan Nilai Praktikum 3: \"))\n",
+        "   list=[nama,nilai1,nilai2,nilai3]\n",
+        "   mahasiswa.insert(len(mahasiswa),list)\n",
+        "   main()\n",
+        "def data():\n",
+        "    print(\" NAMA |\",\"PRAK 1|\",\"PRAK 2|\",\"PRAK 3|\")\n",
+        "    for i in mahasiswa:\n",
+        "        print(i[0],\"     \",i[1],\"     \",i[2],\"     \",i[3])\n",
+        "    main()\n",
+        "def nilaimahasiswa():\n",
+        "    for i in range(len(mahasiswa)):\n",
+        "        total=0\n",
+        "        for j in range (1,len(mahasiswa[i])):\n",
+        "            total+=mahasiswa[i][j]\n",
+        "        print(mahasiswa[i][0],\"=\",total/len(mahasiswa[i]))\n",
+        "    main()\n",
+        "def nilaipraktikum():\n",
+        "    praktikum1=0\n",
+        "    praktikum2=0\n",
+        "    praktikum3=0\n",
+        "    for i in range(len(mahasiswa)):\n",
+        "        praktikum1+=mahasiswa[i][1]\n",
+        "        praktikum2+=mahasiswa[i][2]\n",
+        "        praktikum3+=mahasiswa[i][3]\n",
+        "    praktikum1=praktikum1/len(mahasiswa)\n",
+        "    praktikum2=praktikum2/len(mahasiswa)\n",
+        "    praktikum3=praktikum3/len(mahasiswa)\n",
+        "    print(\"Nilai rata-rata 1= \",praktikum1)\n",
+        "    print(\"Nilai rata-rata 2= \",praktikum2)\n",
+        "    print(\"nilai rata-rata 3= \",praktikum3)\n",
+        "    main()\n",
+        "def nilairatarata():\n",
+        "    nama_cari = input(\"Masukkan Nama Mahasiswa yang ingin dicari rata-ratanya: \")\n",
+        "    found = False\n",
+        "    for i in range(len(mahasiswa)):\n",
+        "        if mahasiswa[i][0] == nama_cari:\n",
+        "            total = sum(mahasiswa[i][1:])\n",
+        "            rata_rata = total / len(mahasiswa[i][1:])\n",
+        "            print(\"Rata-rata nilai untuk\", nama_cari, \"adalah:\", rata_rata)\n",
+        "            found = True\n",
+        "            break\n",
+        "\n",
+        "    if not found:\n",
+        "        print(\"Mahasiswa dengan nama\", nama_cari, \"tidak ditemukan.\")\n",
+        "    main()\n",
+        "def update_nilai():\n",
+        "    update=input(\"Nama Yang Dicari :\")\n",
+        "    nilai=int(input(\"Ingin Update nilai Praktikum ke-: \"))\n",
+        "    nilai_baru=int(input(\"Nilai Baru: \"))\n",
+        "    for i in mahasiswa:\n",
+        "        if i [0]==update:\n",
+        "            i[nilai]=nilai_baru\n",
+        "    main()\n",
+        "def main():\n",
+        "    print(\"Program Membuat List\")\n",
+        "    print(\"1.Memasukkan nama dan nilai\")\n",
+        "    print(\"2.Lihat data\")\n",
+        "    print(\"3.Nilai rata-rata mahasiswa\")\n",
+        "    print(\"4.Nilai rata-rata setiap praktikum mahasiswa\")\n",
+        "    print(\"5.Mencari nilai rata-rata dari setiap mahasiswa\")\n",
+        "    print(\"6.Mengubah nilai mahasiswa\")\n",
+        "    print(\"7.Keluar\")\n",
+        "    pilih=int(input(\"Silahkan pilih (ketik 7 jika ingin keluar):\"))\n",
+        "    if pilih==1:\n",
+        "        data_masuk()\n",
+        "    elif pilih==2:\n",
+        "        data()\n",
+        "    elif pilih==3:\n",
+        "        nilaimahasiswa()\n",
+        "    elif pilih==4:\n",
+        "        nilaipraktikum()\n",
+        "    elif pilih==5:\n",
+        "        nilairatarata()\n",
+        "    elif pilih==6:\n",
+        "        update_nilai()\n",
+        "    elif pilih==7:\n",
+        "        exit()\n",
+        "    else:\n",
+        "        print(\"Keyword yang kamu masukan salah!\")\n",
+        "        pilih=int(input(\"Silahkan pilih (ketik 7 jika ingin keluar):\"))\n",
+        "main()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-Up3UbaTVP9Q",
+        "outputId": "98240693-7f06-4f66-fe76-b826e6b924d5"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):1\n",
+            "Masukkan Nama Mahasiswa: Hafidz\n",
+            "Masukkan Nilai Praktikum 1: 100\n",
+            "Masukkan Nilai Praktikum 2: 92\n",
+            "Masukkan Nilai Praktikum 3: 90\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):2\n",
+            " NAMA | PRAK 1| PRAK 2| PRAK 3|\n",
+            "Hafidz       100       92       90\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):3\n",
+            "Hafidz = 70.5\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):4\n",
+            "Nilai rata-rata 1=  100.0\n",
+            "Nilai rata-rata 2=  92.0\n",
+            "nilai rata-rata 3=  90.0\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):5\n",
+            "Masukkan Nama Mahasiswa yang ingin dicari rata-ratanya: Hafidz\n",
+            "Rata-rata nilai untuk Hafidz adalah: 94.0\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):6\n",
+            "Nama Yang Dicari :Hafidz\n",
+            "Ingin Update nilai Praktikum ke-: 1\n",
+            "Nilai Baru: 100\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "4.Nilai rata-rata setiap praktikum mahasiswa\n",
+            "5.Mencari nilai rata-rata dari setiap mahasiswa\n",
+            "6.Mengubah nilai mahasiswa\n",
+            "7.Keluar\n",
+            "Silahkan pilih (ketik 7 jika ingin keluar):7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def data_masuk():\n",
+        "    nama = input(\"Masukkan nama mahasiswa: \")\n",
+        "    nilai_praktikum_1 = int(input(\"Masukkan nilai praktikum ke-1: \"))\n",
+        "    nilai_praktikum_2 = int(input(\"Masukkan nilai praktikum ke-2: \"))\n",
+        "    nilai_praktikum_3 = int(input(\"Masukkan nilai praktikum ke-3: \"))\n",
+        "    mahasiswa.append([nama, nilai_praktikum_1, nilai_praktikum_2, nilai_praktikum_3])\n",
+        "    print(\"Data mahasiswa berhasil dimasukkan.\")\n",
+        "    main()\n",
+        "\n",
+        "def data():\n",
+        "    print(\"Data Mahasiswa:\")\n",
+        "    for mhs in mahasiswa:\n",
+        "        print(\"Nama:\", mhs[0])\n",
+        "        print(\"Nilai Praktikum 1:\", mhs[1])\n",
+        "        print(\"Nilai Praktikum 2:\", mhs[2])\n",
+        "        print(\"Nilai Praktikum 3:\", mhs[3])\n",
+        "        print(\"--------------------\")\n",
+        "    main()\n",
+        "\n",
+        "def nilaimahasiswa():\n",
+        "    total_nilai = 0\n",
+        "    for mhs in mahasiswa:\n",
+        "        total_nilai += sum(mhs[1:])\n",
+        "    rata_rata = total_nilai / (len(mahasiswa) * 3)\n",
+        "    print(\"Nilai rata-rata mahasiswa:\", rata_rata)\n",
+        "    main()\n",
+        "\n",
+        "def main():\n",
+        "    print(\"Program Membuat List\")\n",
+        "    print(\"1.Memasukkan nama dan nilai\")\n",
+        "    print(\"2.Lihat data\")\n",
+        "    print(\"3.Nilai rata-rata mahasiswa\")\n",
+        "    pilih = int(input(\"Silahkan pilih (ketik 3 jika ingin keluar):\"))\n",
+        "    if pilih == 1:\n",
+        "        data_masuk()\n",
+        "    elif pilih == 2:\n",
+        "        data()\n",
+        "    elif pilih == 3:\n",
+        "        nilaimahasiswa()\n",
+        "    else:\n",
+        "        print(\"Keyword yang kamu masukan salah!\")\n",
+        "        main()\n",
+        "\n",
+        "# List untuk menyimpan data mahasiswa\n",
+        "mahasiswa = []\n",
+        "\n",
+        "# Memanggil fungsi main()\n",
+        "main()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 917
+        },
+        "id": "KlS5_bBjdA4Q",
+        "outputId": "83682592-a656-4672-d325-3a315fb9e2f3"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):1\n",
+            "Masukkan nama mahasiswa: Hafidz\n",
+            "Masukkan nilai praktikum ke-1: 100\n",
+            "Masukkan nilai praktikum ke-2: 50\n",
+            "Masukkan nilai praktikum ke-3: 100\n",
+            "Data mahasiswa berhasil dimasukkan.\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):2\n",
+            "Data Mahasiswa:\n",
+            "Nama: Hafidz\n",
+            "Nilai Praktikum 1: 100\n",
+            "Nilai Praktikum 2: 50\n",
+            "Nilai Praktikum 3: 100\n",
+            "--------------------\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):3\n",
+            "Nilai rata-rata mahasiswa: 83.33333333333333\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36m<cell line: 48>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     46\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     47\u001b[0m \u001b[0;31m# Memanggil fungsi main()\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 48\u001b[0;31m \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     33\u001b[0m     \u001b[0mpilih\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Silahkan pilih (ketik 3 jika ingin keluar):\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     34\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 35\u001b[0;31m         \u001b[0mdata_masuk\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     36\u001b[0m     \u001b[0;32melif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     37\u001b[0m         \u001b[0mdata\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mdata_masuk\u001b[0;34m()\u001b[0m\n\u001b[1;32m      6\u001b[0m     \u001b[0mmahasiswa\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mappend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mnama\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnilai_praktikum_1\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnilai_praktikum_2\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnilai_praktikum_3\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Data mahasiswa berhasil dimasukkan.\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 8\u001b[0;31m     \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      9\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     10\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     35\u001b[0m         \u001b[0mdata_masuk\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     36\u001b[0m     \u001b[0;32melif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 37\u001b[0;31m         \u001b[0mdata\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     38\u001b[0m     \u001b[0;32melif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     39\u001b[0m         \u001b[0mnilaimahasiswa\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mdata\u001b[0;34m()\u001b[0m\n\u001b[1;32m     16\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Nilai Praktikum 3:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmhs\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m3\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     17\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"--------------------\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 18\u001b[0;31m     \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     19\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     20\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mnilaimahasiswa\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     37\u001b[0m         \u001b[0mdata\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     38\u001b[0m     \u001b[0;32melif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 39\u001b[0;31m         \u001b[0mnilaimahasiswa\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     40\u001b[0m     \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     41\u001b[0m         \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Keyword yang kamu masukan salah!\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mnilaimahasiswa\u001b[0;34m()\u001b[0m\n\u001b[1;32m     24\u001b[0m     \u001b[0mrata_rata\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mtotal_nilai\u001b[0m \u001b[0;34m/\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mlen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmahasiswa\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;34m*\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     25\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Nilai rata-rata mahasiswa:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mrata_rata\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 26\u001b[0;31m     \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     27\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     28\u001b[0m \u001b[0;32mdef\u001b[0m \u001b[0mmain\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m<ipython-input-1-6bfa55515015>\u001b[0m in \u001b[0;36mmain\u001b[0;34m()\u001b[0m\n\u001b[1;32m     31\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"2.Lihat data\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     32\u001b[0m     \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"3.Nilai rata-rata mahasiswa\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 33\u001b[0;31m     \u001b[0mpilih\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Silahkan pilih (ketik 3 jika ingin keluar):\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     34\u001b[0m     \u001b[0;32mif\u001b[0m \u001b[0mpilih\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;36m1\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     35\u001b[0m         \u001b[0mdata_masuk\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    849\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    850\u001b[0m             )\n\u001b[0;32m--> 851\u001b[0;31m         return self._input_request(str(prompt),\n\u001b[0m\u001b[1;32m    852\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    853\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    893\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    894\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 895\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    896\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    897\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ]
+    }
+  ]
+}
