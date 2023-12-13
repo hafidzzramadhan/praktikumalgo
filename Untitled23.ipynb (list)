@@ -1,0 +1,387 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMTyzCK02DbAuMo3BPYAjLG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hafidzzramadhan/praktikumalgo/blob/main/Untitled23.ipynb%20(list)\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "id": "GVEm6x-7jBKc"
+      },
+      "outputs": [],
+      "source": [
+        "def DefoptFunc(x, y=2, z=3):\n",
+        "  print(x,y,z)\n",
+        "\n",
+        "  DefoptFunc(1)\n",
+        "  DefoptFunc(1,10)\n",
+        "  DefoptFunc(1,10,20)\n",
+        "  DefoptFunc(1,z=30)\n",
+        "  DefoptFunc(1, z=50,y=100)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def defOptFunc (x, y=2, z=3):\n",
+        "    #print (x, y, z)\n",
+        "\n",
+        "\n",
+        "defOptFunc(1)\n",
+        "defOptFunc(1, 10)\n",
+        "defOptFunc(1, 10, 20)\n",
+        "defOptFunc(1, z=30)\n",
+        "defOptFunc(1, z=50, y=100)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 143
+        },
+        "id": "ID-2AtYTpzrf",
+        "outputId": "294bbf1d-688d-469d-e87c-9663ebb2b3b7"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-140d1747fbd1>\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\n\u001b[0;31m    defOptFunc(1)\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after function definition on line 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def Indexganjil():\n",
+        "  output = input_user[::2]\n",
+        "  return output\n",
+        "\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "print(\"Karakter dengan indeks ganjil:\", output)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u-o410CB7jgX",
+        "outputId": "f605f890-b1e8-44cf-e005-601fe34f07c4"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def Indexganjil():\n",
+        "  output = input_user[::2]\n",
+        "  return output\n",
+        "\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "print(\"Karakter dengan indeks ganjil:\", output)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Np9yRDqTAYDj",
+        "outputId": "b2ec96d6-b804-4222-cb8a-b880c568665f"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def karakter_indeks_ganjil(inputan):\n",
+        "    \"\"\"\n",
+        "    Fungsi ini memunculkan karakter dengan indeks ganjil dari inputan.\n",
+        "\n",
+        "    Parameters:\n",
+        "    - inputan (str): String yang akan diolah.\n",
+        "\n",
+        "    Returns:\n",
+        "    - str: Karakter dengan indeks ganjil dari inputan.\n",
+        "    \"\"\"\n",
+        "    return inputan[::2]\n",
+        "\n",
+        "# Input dari pengguna\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "\n",
+        "# Memunculkan karakter dengan indeks ganjil\n",
+        "hasil_output = karakter_indeks_ganjil(input_user)\n",
+        "\n",
+        "# Menampilkan hasil\n",
+        "print(\"Karakter dengan indeks ganjil:\", hasil_output)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7hsDjf9XA1ML",
+        "outputId": "9b279351-4413-4f7e-969c-40793cb5b768"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: rido\n",
+            "Karakter dengan indeks ganjil: rd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def tampilkan_index_ganjil(input_string):\n",
+        "    karakter_ganjil = input_string[::2]\n",
+        "    print(\"Karakter dengan index ganjil:\", karakter_ganjil)\n",
+        "\n",
+        "# Input dari pengguna\n",
+        "input_user = input(\"Masukkan sebuah string: \")\n",
+        "\n",
+        "# Memanggil fungsi untuk menampilkan karakter index ganjil\n",
+        "tampilkan_index_ganjil(input_user)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1bO-Zy1rPX2w",
+        "outputId": "241afceb-24b2-4551-83ff-1fbe5800fc2f"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan sebuah string: Hafidz ramadhan\n",
+            "Karakter dengan index ganjil: Hfd aahn\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def hitung_jumlah_range(batas_bawah, batas_atas):\n",
+        "    jumlah = sum(range(batas_bawah, batas_atas + 1))\n",
+        "    return jumlah\n",
+        "\n",
+        "# Meminta input dari pengguna\n",
+        "batas_bawah = int(input(\"Masukkan batas bawah: \"))\n",
+        "batas_atas = int(input(\"Masukkan batas atas: \"))\n",
+        "\n",
+        "# Menghitung jumlah range\n",
+        "hasil = hitung_jumlah_range(batas_bawah, batas_atas)\n",
+        "\n",
+        "# Menampilkan hasil\n",
+        "print(f\"Jumlah range adalah : {hasil}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YHftNTMaQI2c",
+        "outputId": "bae65e1b-8aa8-4e8b-f951-c9c36ab5083a"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Masukkan batas bawah: 1\n",
+            "Masukkan batas atas: 1\n",
+            "Jumlah range adalah : 1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def sapa():\n",
+        "  return \"hello world\"\n",
+        "\n",
+        "x=sapa()\n",
+        "print(x)\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 143
+        },
+        "id": "kNU_U0CUtHVZ",
+        "outputId": "e1898215-1fa8-42e2-e9c8-c1018796768f"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-5-1515e6c1add9>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    def sapa(2):\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def data_masuk():\n",
+        "    nama = input(\"Masukkan nama mahasiswa: \")\n",
+        "    nilai_praktikum_1 = int(input(\"Masukkan nilai praktikum ke-1: \"))\n",
+        "    nilai_praktikum_2 = int(input(\"Masukkan nilai praktikum ke-2: \"))\n",
+        "    nilai_praktikum_3 = int(input(\"Masukkan nilai praktikum ke-3: \"))\n",
+        "    mahasiswa.append([nama, nilai_praktikum_1, nilai_praktikum_2, nilai_praktikum_3])\n",
+        "    print(\"Data mahasiswa berhasil dimasukkan.\")\n",
+        "    main()\n",
+        "\n",
+        "def data():\n",
+        "    print(\"Data Mahasiswa:\")\n",
+        "    for mhs in mahasiswa:\n",
+        "        print(\"Nama:\", mhs[0])\n",
+        "        print(\"Nilai Praktikum 1:\", mhs[1])\n",
+        "        print(\"Nilai Praktikum 2:\", mhs[2])\n",
+        "        print(\"Nilai Praktikum 3:\", mhs[3])\n",
+        "        print(\"--------------------\")\n",
+        "    main()\n",
+        "\n",
+        "def nilaimahasiswa():\n",
+        "    total_nilai = 0\n",
+        "    for mhs in mahasiswa:\n",
+        "        total_nilai += sum(mhs[1:])\n",
+        "    rata_rata = total_nilai / (len(mahasiswa) * 3)\n",
+        "    print(\"Nilai rata-rata mahasiswa:\", rata_rata)\n",
+        "    main()\n",
+        "\n",
+        "def main():\n",
+        "    print(\"Program Membuat List\")\n",
+        "    print(\"1.Memasukkan nama dan nilai\")\n",
+        "    print(\"2.Lihat data\")\n",
+        "    print(\"3.Nilai rata-rata mahasiswa\")\n",
+        "    pilih = int(input(\"Silahkan pilih (ketik 3 jika ingin keluar):\"))\n",
+        "    if pilih == 1:\n",
+        "        data_masuk()\n",
+        "    elif pilih == 2:\n",
+        "        data()\n",
+        "    elif pilih == 3:\n",
+        "        nilaimahasiswa()\n",
+        "    else:\n",
+        "        print(\"Keyword yang kamu masukan salah!\")\n",
+        "        main()\n",
+        "\n",
+        "# List untuk menyimpan data mahasiswa\n",
+        "mahasiswa = []\n",
+        "\n",
+        "# Memanggil fungsi main()\n",
+        "main()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "suzRvLVfVeWy",
+        "outputId": "0618c8fa-884c-478b-c630-ecba4ea7a327"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):1\n",
+            "Masukkan nama mahasiswa: Hafidz \n",
+            "Masukkan nilai praktikum ke-1: 100\n",
+            "Masukkan nilai praktikum ke-2: 100\n",
+            "Masukkan nilai praktikum ke-3: 90\n",
+            "Data mahasiswa berhasil dimasukkan.\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):2\n",
+            "Data Mahasiswa:\n",
+            "Nama: Hafidz \n",
+            "Nilai Praktikum 1: 100\n",
+            "Nilai Praktikum 2: 100\n",
+            "Nilai Praktikum 3: 90\n",
+            "--------------------\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):3\n",
+            "Nilai rata-rata mahasiswa: 96.66666666666667\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n",
+            "Silahkan pilih (ketik 3 jika ingin keluar):3\n",
+            "Nilai rata-rata mahasiswa: 96.66666666666667\n",
+            "Program Membuat List\n",
+            "1.Memasukkan nama dan nilai\n",
+            "2.Lihat data\n",
+            "3.Nilai rata-rata mahasiswa\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
